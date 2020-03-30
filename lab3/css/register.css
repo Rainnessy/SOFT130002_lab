@@ -1,0 +1,55 @@
+html {
+    background: lightcyan;
+}
+
+body {
+    margin: 10px 250px 10px 250px;
+}
+
+div {
+    border-radius: 20px;
+    background: darkturquoise;
+    padding: 20px;
+    position: center;
+}
+
+textarea {
+    background: aquamarine;
+    width: 100%;
+}
+
+a {
+    font-size: xx-large;
+}
+
+h1 {
+    text-align: center;
+    font-size: x-large;
+    color: darkblue;
+}
+
+p {
+    font-size: large;
+}
+
+input[type=text], input[type=password], input[type=tel], input[type=submit], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+    background: aquamarine;
+    position: center;
+}
+
+input[name=checked] {
+    width: 30%;
+}
+
+input[type=radio], input[type=checkbox] {
+    text-align: center;
+}
+img {
+    width: 100px;
+    height: 40px;
+    margin: -15px 0;
+}

@@ -1,0 +1,61 @@
+html{
+    background: lightcyan;
+}
+article{
+    margin: 10px 50px 10px 50px;
+    background: white;
+}
+nav{
+    margin: 0px 50px 0px 50px;
+    padding: 10px;
+    font-size: large;
+    background: deepskyblue;
+    text-align: center;
+    size: 50px;
+    vertical-align: middle;
+}
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+h3{
+    font-size: large;
+    color:darkmagenta;
+}
+small{
+    font-size: medium;
+    color: blueviolet;
+    text-align: center;
+}
+div{
+    text-indent: 2em;
+}
+span{
+    color: darkslateblue;
+}
+span:hover{
+    color: green;
+}
+footer{
+    text-align: center;
+}
+aside{
+    color: #000;
+    padding: 8px 0px;
+    text-decoration: none;
+    margin: 0;
+    width: 50px;
+    float: right;
+}
+aside>a{
+    display:block;
+    width:100px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
