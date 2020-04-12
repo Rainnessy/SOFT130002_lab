@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户登录</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/login.css"
+</head>
+<body>
+<div class="container">
+    <form name="login" method="post" action="index.html">
+        <p>
+        <div class="modi">用户名：</div>
+        <input type="text" name="uid" pattern="^[a-zA-Z0-9_]+$" required
+               placeholder="用户名由下划线、数字、字母组成">
+        </p>
+        <p>
+        <div class="modi">密码</div>
+        <input type="password" name="password" required
+               placeholder="请输入密码">
+        </p>
+        <p class="submit">
+            <input type="submit">
+        </p>
+    </form>
+    <div class="regi">
+        <a href="register.html">没有账户？请先注册</a>
+    </div>
+</div>
+<footer>
+    <div class="row">
+        <p>Copyright © 2019-2020 Web fundamental. All Rights Reserved. 备案号：18307130374</p>
+    </div>
+</footer>
+</body>
+</html>

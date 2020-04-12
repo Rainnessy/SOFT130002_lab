@@ -1,0 +1,49 @@
+footer{
+    clear: both;
+    position: relative;
+}
+footer .container{
+    text-align: center;
+    color: white;
+    display: grid;
+    vertical-align: center;
+}
+footer .first{
+    grid-column: 1;
+}
+footer .second{
+    grid-column: 2;
+}
+footer .third{
+    grid-column: 3;
+}
+.third img{
+    width: 70px;
+    padding: 1px;
+}
+aside div{
+    border: 1px solid rebeccapurple;
+    margin: 1px;
+}
+footer{
+    height: 6em;
+}
+article{
+    display: grid;
+}
+
+.header{
+    width: 100%;
+    height: 500px;
+    background-image: url("../images/collection3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+aside{
+    bottom: 1em;
+    position: fixed;
+    right: 0;
+}
+button{
+    background-color: aqua;
+}

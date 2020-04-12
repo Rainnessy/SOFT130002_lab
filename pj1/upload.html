@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>上传照片</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="browse.html">浏览</a></li>
+            <li><a href="search.html">搜索</a></li>
+            <div class="dropdown">
+                <div class="fa fa-home dropbtn"> 个人中心</div>
+                <div class="dropdown-content">
+                    <a href="upload.html"><span class="fa fa-upload">&nbsp;上传照片</span></a>
+                    <a href="myphotos.html"><div class="fa fa-file-picture-o">&nbsp;我的照片</div></a>
+                    <a href="mycollections.html"><div class="fa fa-cube">&nbsp;我的收藏</div></a>
+                    <a href="login.html"><div class="fa fa-registered">&nbsp;用户登录</div></a>
+                </div>
+            </div>
+        </ul>
+    </nav>
+    <div class="container">
+        <form name="upload" method="post" action="figure.html">
+        <div class="upload">
+            <input type="file" value="upload">
+        </div>
+        图片标题<br>
+        <input name="title" type="text">
+        图片描述<br>
+        <input name="desc" type="text">
+        拍摄国家<br>
+        <input name="coun" type="text">
+        拍摄城市<br>
+        <input name="city" type="text">
+        <input type="submit" value="提交">
+        </form>
+    </div>
+    <footer>
+        <div class="row">
+            <p>Copyright © 2019-2020 Web fundamental. All Rights Reserved. 备案号：18307130374</p>
+        </div>
+    </footer>
+</body>
+</html>

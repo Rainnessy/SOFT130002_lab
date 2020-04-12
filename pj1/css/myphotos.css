@@ -1,0 +1,130 @@
+article h1{
+    font-size: large;
+    background-color: #eeeeee;
+    color: black;
+    width: 900px;
+}
+.footer{
+    color: cornflowerblue;
+}
+.footer{
+    text-align: center;
+    bottom: 1em;
+    margin: auto;
+    width: 100%;
+    position: absolute;
+}
+article{
+    border: 1px solid grey;
+    margin: auto;
+    width: 95%;
+}
+h3{
+    font-size: medium;
+    color: black;
+}
+.wrap{
+    width: 900px;
+    top: 4.5em;
+    bottom: 3.5em;
+    position: absolute;
+    left: auto;
+    right: auto;
+    grid-template-columns: 120px 780px ;
+    grid-template-rows: 110px 110px 110px 110px;
+    display: grid;
+    text-align: left;
+}
+p{
+    font-size: 16px;
+}
+.photo1{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    grid-column: 1;
+    grid-column-end:2 ;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: red;
+    background-image: url("../images/myphoto1.jpg");
+    background-position:center ;
+    background-size: cover;
+}
+.photo2{
+    width: 100px;
+    height: 100px;
+    margin: 10px 10px 0 10px;
+    grid-column: 1;
+    grid-column-end:2 ;
+    grid-row: 2;
+    grid-row-end: 2;
+    background-image: url("../images/myphoto2.jpg");
+    background-size: cover;
+}
+.photo3{
+    width: 100px;
+    height: 100px;
+    margin: 10px 10px 0 10px;
+    grid-column: 1;
+    grid-column-end:2 ;
+    grid-row: 3;
+    background-image: url("../images/myphoto3.jpg");
+    background-size: cover;
+}
+.photo4{
+    width: 100px;
+    height: 100px;
+    margin: 10px 10px 0 10px;
+    grid-column: 1;
+    grid-column-end:2 ;
+    grid-row: 4;
+    grid-row-end: 5;
+    background-image: url("../images/myphoto4.jpg");
+    background-size: cover;
+}
+.figure1{
+    margin: 10px 10px 0 10px;
+    height: 100%;
+    width: 100%;
+    grid-row: 1;
+    grid-row-end: 2;
+    grid-column: 2;
+    grid-column-end:3 ;
+}
+.figure2{
+    margin: 10px 10px 0 10px;
+    height: 100%;
+    width: 100%;
+    grid-row: 2;
+    grid-row-end: 3;
+    grid-column: 2;
+    grid-column-end:3 ;
+}
+.figure3{
+    margin: 10px 10px 0 10px;
+    height: 100%;
+    width: 100%;
+    grid-row: 3;
+    grid-row-end: 4;
+    grid-column: 2;
+    grid-column-end:3 ;
+}
+.figure4{
+    margin: 10px 10px 0 10px;
+    height: 100%;
+    width: 100%;
+    grid-row: 4;
+    grid-column: 2;
+    grid-column-end:3 ;
+}
+button{
+    background-color: green;
+    color: white;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+
+
+

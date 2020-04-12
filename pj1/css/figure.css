@@ -1,0 +1,55 @@
+article{
+    width:95%;
+    height:auto;
+    margin:auto;
+}
+h1{
+    background-color: #eeeeee;
+    padding:2px;
+    border-radius: 4px;
+}
+h2{
+    text-align: center;
+}
+.left{
+    float: left;
+    margin:50px 10px 50px 10px;
+    width:300px;
+    height:300px;
+    background-image: url("../images/figure.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.right{
+    float:right;
+    margin:50px 50px 50px 10px;
+    width:300px;
+    height:300px;
+    box-sizing: border-box;
+}
+h3{
+    width: 100%;
+    background-color: #eeeeee;
+    border-radius: 4px;
+    padding:10px;
+    box-sizing: border-box;
+}
+.right div{
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+.right button{
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: medium;
+}
+button :hover{
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+p{
+    clear:both;
+}

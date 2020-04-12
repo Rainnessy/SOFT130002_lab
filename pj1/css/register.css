@@ -1,0 +1,42 @@
+html{
+    background-color: #eeeeee;
+}
+.container{
+    border-radius: 3%;
+    background:#111111;
+    padding: 20px;
+    width:30%;
+    height:55%;
+    margin:auto;
+    position:absolute;
+    top: 0;
+    bottom: 1em;
+    left: 0;
+    right: 0;
+    vertical-align: center;
+    float: inside;
+}
+body{
+    vertical-align: center;
+}
+.modi{
+    color:white;
+    font-size: large;
+}
+input{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+}
+input[placeholder]{
+    font-size: medium;
+}
+.submit{
+    padding: 20px 0px;
+    width: 100%;
+    vertical-align: center;
+    text-align: center;
+}
+input[type=submit]:hover{
+    background-color: darkgrey;
+}
