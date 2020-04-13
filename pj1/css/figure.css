@@ -1,5 +1,5 @@
 article{
-    width:95%;
+    width:900px;
     height:auto;
     margin:auto;
 }
@@ -11,21 +11,26 @@ h1{
 h2{
     text-align: center;
 }
-.left{
+.leftwrapper{
     float: left;
-    margin:50px 10px 50px 10px;
+    padding: 50px 50px 50px 70px;
+}
+.left{
     width:300px;
     height:300px;
     background-image: url("../images/figure.jpg");
     background-size: cover;
     background-position: center;
 }
-.right{
+.rightwrapper{
     float:right;
-    margin:50px 50px 50px 10px;
+    padding: 50px 70px 50px 50px;
+}
+.right{
     width:300px;
     height:300px;
-    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 5px;
 }
 h3{
     width: 100%;
@@ -41,14 +46,12 @@ h3{
 }
 .right button{
     width: 100%;
-    padding: 5px;
-    margin: 5px;
+    padding: 12px 10px;
     border-radius: 5px;
     font-size: medium;
 }
 button :hover{
-    border: 1px solid black;
-    box-sizing: border-box;
+    background-color: green;
 }
 p{
     clear:both;

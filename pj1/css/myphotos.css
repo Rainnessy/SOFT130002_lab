@@ -2,7 +2,9 @@ article h1{
     font-size: large;
     background-color: #eeeeee;
     color: black;
-    width: 900px;
+    width: 860px;
+    padding: 4px;
+    border-radius: 5px;
 }
 .footer{
     color: cornflowerblue;
@@ -17,7 +19,12 @@ article h1{
 article{
     border: 1px solid grey;
     margin: auto;
-    width: 95%;
+    width:900px;
+    height:500px;
+    border-radius: 5px;
+}
+.emmm{
+    margin: 10px;
 }
 h3{
     font-size: medium;
@@ -25,13 +32,8 @@ h3{
 }
 .wrap{
     width: 900px;
-    top: 4.5em;
-    bottom: 3.5em;
-    position: absolute;
-    left: auto;
-    right: auto;
     grid-template-columns: 120px 780px ;
-    grid-template-rows: 110px 110px 110px 110px;
+    grid-template-rows: 110px 110px 110px 120px;
     display: grid;
     text-align: left;
 }

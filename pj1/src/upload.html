@@ -5,6 +5,7 @@
     <title>上传照片</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/font-awesome.css">
+    <link rel="stylesheet" href="../css/upload.css">
 </head>
 <body>
     <nav>
@@ -23,22 +24,24 @@
             </div>
         </ul>
     </nav>
+    <article>
     <div class="container">
+        <h2>上传图片</h2>
         <form name="upload" method="post" action="figure.html">
-        <div class="upload">
-            <input type="file" value="upload">
-        </div>
-        图片标题<br>
+        <div class="upload">图片未上传</div>
+            <button type="button">upload</button>
+        <p>图片标题</p>
         <input name="title" type="text">
-        图片描述<br>
+            <p>图片描述</p>
         <input name="desc" type="text">
-        拍摄国家<br>
+            <p>拍摄国家</p>
         <input name="coun" type="text">
-        拍摄城市<br>
+        <p>拍摄城市</p>
         <input name="city" type="text">
-        <input type="submit" value="提交">
+        <input type="submit" value="提交" onclick="alert('敬请期待')">
         </form>
     </div>
+    </article>
     <footer>
         <div class="row">
             <p>Copyright © 2019-2020 Web fundamental. All Rights Reserved. 备案号：18307130374</p>

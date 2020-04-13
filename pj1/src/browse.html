@@ -5,6 +5,7 @@
     <title>浏览</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/font-awesome.css">
+    <link rel="stylesheet" href="../css/browse.css">
 </head>
 <body>
     <nav>
@@ -23,9 +24,13 @@
             </div>
         </ul>
     </nav>
+    <div class="main">
     <aside>
+        <section class="search">
         <h2>搜索一下</h2>
         <input type="search">
+        <div class="sear fa fa-search" onclick="alert('敬请期待')"></div>
+        </section>
         <div class="country">
             <h2>热门国家快速浏览</h2>
             <div onclick="alert('敬请期待')">法国</div>
@@ -41,32 +46,78 @@
             <div onclick="alert('敬请期待')">西双版纳</div>
         </div>
         <div class="hot">
+            <h2>热门内容快速浏览</h2>
             <div onclick="alert('敬请期待')">黄昏</div>
             <div onclick="alert('敬请期待')">海边</div>
             <div onclick="alert('敬请期待')">湖边</div>
         </div>
     </aside>
     <article>
-        <link rel="script" href="cities.json">
+        <h2>浏览</h2>
+        <div class="button" >
+            <form name="filter" method="post">
+            <select name="content" >
+                <option>内容筛选</option>
+                <option>黄昏</option>
+                <option>海边</option>
+                <option>湖边</option>
+            </select>
+            <select name="country" onchange="selectCity(this,this.form.city)">
+                <option  value="0">国家筛选</option>
+                <option value="1">美国</option>
+                <option value="2">中国</option>
+                <option value="3">日本</option>
+            </select>
+            <select name="city">
+                <option value="0">城市筛选</option>
+            </select>
+            <button onclick="alert('敬请期待')">筛选</button>
+            </form>
+        </div>
         <section>
-            <div class="photo photo1"><a href="figure.html"><img src="../images/collection2.jpg"></a></div>
-            <div class="photo photo2"><a href="figure.html"><img src="../images/collection2.jpg"></a></div>
-            <div class="photo photo3"><a href="figure.html"><img src="../images/collection2.jpg"></a></div>
-            <div class="photo photo4"><a href="figure.html"><img src="../images/collection2.jpg"></a></div>
-            <div class="photo photo5"><a href="figure.html"><img src="../images/collection2.jpg"></a></div>
-            <div class="photo photo6"><a href="figure.html"><img src="../images/collection2.jpg"></a></div>
-            <div class="photo photo7"><a href="figure.html"><img src="../images/collection2.jpg"></a></div>
-            <div class="photo photo8"><a href="figure.html"><img src="../images/collection2.jpg"></a></div>
-            <div class="photo photo9"><a href="figure.html"><img src="../images/collection2.jpg"></a></div>
-            <div class="photo photo10"><a href="figure.html"><img src="../images/collection2.jpg"></a></div>
-            <div class="photo photo11"><a href="figure.html"><img src="../images/collection2.jpg"></a></div>
-            <div class="photo photo12"><a href="figure.html"><img src="../images/collection2.jpg"></a></div>
+            <div class="photo photo1"><a href="figure.html"></a></div>
+            <div class="photo photo2"><a href="figure.html"></a></div>
+            <div class="photo photo3"><a href="figure.html"></a></div>
+            <div class="photo photo4"><a href="figure.html"></a></div>
+            <div class="photo photo5"><a href="figure.html"></a></div>
+            <div class="photo photo6"><a href="figure.html"></a></div>
+            <div class="photo photo7"><a href="figure.html"></a></div>
+            <div class="photo photo8"><a href="figure.html"></a></div>
+            <div class="photo photo9"><a href="figure.html"></a></div>
+            <div class="photo photo10"><a href="figure.html"></a></div>
+            <div class="photo photo11"><a href="figure.html"></a></div>
+            <div class="photo photo12"><a href="figure.html"></a></div>
+            <div class="photo photo13"><a href="figure.html"></a></div>
+            <div class="photo photo14"><a href="figure.html"></a></div>
+            <div class="photo photo15"><a href="figure.html"></a></div>
+            <div class="photo photo16"><a href="figure.html"></a></div>
         </section>
+        <div><div class="footer">《  1  2  3  4  5  》</div></div>
     </article>
+    </div>
     <footer>
         <div class="row">
             <p>Copyright © 2019-2020 Web fundamental. All Rights Reserved. 备案号：18307130374</p>
         </div>
     </footer>
 </body>
+<script type="javascript">
+    var city=[["请选择市区","洛杉矶","华盛顿","纽约"],
+    ["请选择市区","北京","上海","广州"],
+    ["请选择市区","大阪","东京","京都"],
+    ];
+    function selectCity(coun,cit) {
+        cov=coun.value;
+        civ=cit.value;
+        cit.length=1;
+        if(cov==='0')
+            return;
+        if (city[cov]==='undefined')
+            return;
+        for(var i = 0;i < city[cov].length;i++)
+        {
+            cit.options[i + 1]=new Option();
+        }
+    }
+</script>
 </html>

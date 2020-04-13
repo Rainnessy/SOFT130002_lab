@@ -1,0 +1,119 @@
+h2{
+    background-color: #eeeeee;
+    padding: 5px;
+    border: 1px solid gainsboro;
+}
+.main{
+    width: 900px;
+    margin: 10px 100px 10px 100px;
+    border: hidden;
+}
+.country,.area,.hot,aside section{
+    width: 210px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    margin: 10px 0;
+}
+aside div div{
+    border: 1px solid gainsboro;
+    padding: 5px;
+}
+footer{
+    position: relative;
+}
+input{
+    padding: 5px 5px 5px 7px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+section input,section div{
+    margin: 5px 0;
+}
+article{
+   margin-left: 220px;
+    width: 780px;
+   border: 1px solid gainsboro;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+aside{
+    float: left;
+}
+.photo{
+    margin: 0px 10px 10px;
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+}
+.footer{
+    text-align: center;
+    color: blue;
+    bottom: 1em;
+}
+footer{
+    clear:both;
+    position: relative;
+}
+.button{
+    padding: 10px;
+    border: 1px solid gainsboro;
+    text-align: center;
+}
+article section{
+    columns: 4;
+    column-span: none;
+}
+select,button{
+    width: 150px;
+    margin-right: 20px;
+    padding: 5px 0;
+}
+.photo1{
+    background-image: url("../images/1.jpg");
+}
+.photo2{
+    background-image: url("../images/2.jpg");
+}
+.photo3{
+    background-image: url("../images/3.jpg");
+}
+.photo4{
+    background-image: url("../images/4.jpg");
+}
+.photo5{
+    background-image: url("../images/5.jpg");
+}
+.photo6{
+    background-image: url("../images/6.jpg");
+}
+.photo7{
+    background-image: url("../images/7.jpg");
+}
+.photo8{
+    background-image: url("../images/8.jpg");
+}
+.photo9{
+    background-image: url("../images/9.jpg");
+}
+.photo10{
+    background-image: url("../images/10.jpg");
+}
+.photo11{
+    background-image: url("../images/11.jpg");
+}
+.photo12{
+    background-image: url("../images/12.jpg");
+}
+.photo13{
+    background-image: url("../images/13.jpg");
+}
+.photo14{
+    background-image: url("../images/14.jpg");
+}
+.photo15{
+    background-image: url("../images/15.jpg");
+}
+.photo16{
+    background-image: url("../images/16.jpg");
+}

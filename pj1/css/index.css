@@ -45,5 +45,99 @@ aside{
     right: 0;
 }
 button{
-    background-color: aqua;
+    background-color: white;
+}
+.wrapper{
+    display: grid;
+    width: 900px;
+    margin: auto;
+    text-align: center;
+    grid-template-rows: 310px 310px;
+}
+.img1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin: 10px;
+    border: 1px solid grey;
+}
+.img2{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin: 10px;
+    border: 1px solid grey;
+}
+desc{
+    text-align: center;
+}
+.img3{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin: 10px;
+    border: 1px solid grey;
+}
+.img4{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin: 10px;
+    border: 1px solid grey;
+}
+.img5{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin: 10px;
+    border: 1px solid grey;
+}
+.img6{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin: 10px;
+    border: 1px solid grey;
+}
+.img{
+    width: 250px;
+    height: 250px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.img11{
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/myphoto1.jpg");
+}
+.img22{
+    background-image: url("../images/myphoto2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.img33{
+    background-image: url("../images/myphoto3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.img44{
+    background-image: url("../images/myphoto4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.img55{
+    background-image: url("../images/collection1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.img66{
+    background-image: url("../images/collection2.jpg");
+    background-position: center;
+    background-size: cover;
 }
